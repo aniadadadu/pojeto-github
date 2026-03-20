@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Página Principal</title>
 </head>
-<body>
+<body class="has-fixed-layout">
+    <nav class="site-menu" aria-label="Menu principal">
+        <iframe src="pages/layout.html?section=menu&page=index" title="Menu principal"></iframe>
+    </nav>
+
     <header> Tech SJM 2026</header>
     <main>
 <p>Olá mundo!</p>
@@ -14,6 +19,10 @@
 
 
 </main>
+
+    <footer class="site-footer">
+        <iframe src="pages/layout.html?section=footer" title="Rodape"></iframe>
+    </footer>
 
 </body>
 </html>
