@@ -1,3 +1,4 @@
+/*catalogo cores*/
 :root{
 --cyan: #4ebcc4;
 --darkcyan:#008b8b;
@@ -6,6 +7,8 @@
 --grey:#272727;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*elementos html*/
 body{
     background-color:var(--white);
     margin:auto;
@@ -29,6 +32,9 @@ header{
     font-size:30px;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------------------*
+/*titulo principal*/
+
 #maintitle {
     font-size:6rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -45,6 +51,19 @@ main {
     padding: 40px 20px;
 }
  
+footer {
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 0.85rem;
+    color: var(--black);
+    border-top: 1px solid #acacac;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    background-color:#e3e3e3;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*hero*/
+
 .hero {
     text-align: center;
     max-width: 700px;
@@ -66,14 +85,14 @@ main {
 }
  
 .hero-subtitle {
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-size: clamp(2rem, 3vw, 1.25rem);
     font-weight: 300;
     color: var(--grey);
     margin-bottom: 48px;
     line-height: 1.6;
 }
- 
-/* ── BUTTONS ── */
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* BOTOES */
 .button-group {
     display: flex;
     gap: 16px;
@@ -83,9 +102,9 @@ main {
  
 .btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.95rem;
-    font-weight: 400;
-    padding: 14px 32px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 15px 30px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -108,8 +127,11 @@ footer {
     text-align: center;
     padding: 24px 20px;
     font-size: 0.85rem;
-    color: rgb(0, 0, 0);
-    border-top: 1px solid var(--grey);
+    color: var(--black);
+    border-top: 1px solid #acacac;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    background-color:#e3e3e3;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
