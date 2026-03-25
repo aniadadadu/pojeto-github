@@ -1,12 +1,3 @@
-/*catalogo cores*/
-:root{
---cyan: #4ebcc4;
---darkcyan:#008b8b;
---black: #000000;
---white: #FFFFFF;
---grey:#272727;
-}
-
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 /*elementos html*/
 body{
@@ -24,10 +15,11 @@ p{
 }
 
 header{
-    display:flex;
-    flex-direction:column;
-    padding: 20px 40px;
-    background-color:var(--cyan);
+    padding:20px;
+    align-self: left;
+    margin:auto;
+    background:linear-gradient(120deg, rgb(207, 227, 248) 0%, rgb(159, 196, 234) 100%);
+    color:var(--black);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:30px;
 }
