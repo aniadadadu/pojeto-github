@@ -5,12 +5,18 @@
     <title>Contactos</title>
 </head>
     <link rel="stylesheet" href="../css/contactos.css">
+    <link rel="stylesheet" href="../css/layout.css">
 <body>
-    <header> Tech SJM 2026</header> 
-    
+    <nav class="site-menu" aria-label="Menu principal">
+        <iframe src="layout.html?section=menu&page=projetos" title="Menu principal"></iframe>
+    </nav>
+
+    <header class="projects-hero">
+    </header>
    <div class = "caixaCorpo">
+
         <div class="caixaContacto">
-            <div class="titulo"> <h1>Contactos</h1> </div>
+            <div class="tituloContactos"> <h1>Contactos</h1></div>
             <div class="primeiroNome">
                 <label for="primeiroNome">Primeiro Nome:</label>
                 <input type="text" id="primeiroNome" name="primeiroNome">
@@ -43,7 +49,9 @@
             </div>
         </div>
    </div>
-
+    <footer class="site-footer">
+        <iframe src="layout.html?section=footer" title="Rodape"></iframe>
+    </footer>
    <script src="../js/contactos.js"></script>
 
 </body>
