@@ -16,7 +16,7 @@ document.getElementById("btnSubmit").addEventListener("click", function(event) {
     const mensagem = document.getElementById("mensagem").value.trim();
 
     if (primeiroNome === "" || ultimoNome === "" || email === "" || mensagem === "") {
-        mostrarMensagem("Preenche todos os campos obrigatórios!", "erro");
+        mostrarMensagem("Preencha todos os campos obrigatórios!", "erro");
         return;
     }
 
